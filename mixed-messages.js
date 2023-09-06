@@ -14,5 +14,8 @@ let randomCharacter = storyData.characters[Math.floor(Math.random() * storyData.
 let randomSetting = storyData.setting[Math.floor(Math.random() * storyData.setting.length)];
 //creating a writing promt with random choices
 const randomStoryIdea = () => {
-  return `Write a ${randomPlot} in the ${randomGenre} genre set ${randomSetting} about ${randomCharacter}.`;
+  const randomStory = `Write a ${randomPlot} in the ${randomGenre} genre set ${randomSetting} about ${randomCharacter}.`;
+  console.log(randomStory);
 }
+
+randomStoryIdea();
