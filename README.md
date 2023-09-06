@@ -1,4 +1,4 @@
-# Mixed-Messages
+# Random Writing Promt
 =================
 
-For this project, I am building a message generator program. Every time a user runs a program, they should get a new, randomized output.
+For this project, I am building a randomized writing promt. Every time a user runs the program, they should get a new, randomized promt to spark their inner Dostoevsky!
