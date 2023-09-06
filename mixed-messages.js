@@ -12,3 +12,7 @@ let randomGenre = storyData.genre[Math.floor(Math.random() * storyData.genre.len
 let randomPlot = storyData.plot[Math.floor(Math.random() * storyData.plot.length)];
 let randomCharacter = storyData.characters[Math.floor(Math.random() * storyData.characters.length)];
 let randomSetting = storyData.setting[Math.floor(Math.random() * storyData.setting.length)];
+//creating a writing promt with random choices
+const randomStoryIdea = () => {
+  return `Write a ${randomPlot} in the ${randomGenre} genre set ${randomSetting} about ${randomCharacter}.`;
+}
